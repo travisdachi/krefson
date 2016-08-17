@@ -16,11 +16,6 @@ class KrefsonTest {
 
     var mKrefson: Krefson = Krefson(InstrumentationRegistry.getContext(), "test")
 
-/*    @Before
-    fun createPrefson() {
-        mKrefson = Krefson(InstrumentationRegistry.getContext(), "test")
-    }*/
-
     @Test
     fun putString() {
         val key = "KEY_STRING"
