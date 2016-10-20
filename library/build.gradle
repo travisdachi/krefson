@@ -1,6 +1,25 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
+apply plugin: 'com.novoda.bintray-release'
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.3.4'
+    }
+}
+publish {
+    userOrg = 'travissuban'
+    groupId = 'com.travissuban'
+    artifactId = 'krefson'
+    publishVersion = '0.1.0'
+    licences = ['MIT']
+    desc = 'A really simple object store with SharedPreference and Gson, written in Kotlin.'
+    website = 'https://github.com/travissuban/krefson'
+}
+
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
@@ -26,12 +45,10 @@ android {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.google.code.gson:gson:2.4'
 
     androidTestCompile 'junit:junit:4.12'
     androidTestCompile 'com.android.support.test:runner:0.5'
-    androidTestCompile 'com.android.support.test:rules:0.5'
 }
 repositories {
     mavenCentral()
