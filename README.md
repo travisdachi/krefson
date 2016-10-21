@@ -1,6 +1,7 @@
 # krefson
+[ ![Download](https://api.bintray.com/packages/travissuban/maven/krefson/images/download.svg) ](https://bintray.com/travissuban/maven/krefson/_latestVersion)
 
-krefson is a really simple object store on Android. As the name suggest, it is written in Kotlin, it serialize object with Gson and store it as String in SharedPreference.
+krefson is a really simple object store on Android. As the name suggest, it is written in Kotlin, it serialize object with Gson and store it as String in SharedPreference. Basically it is just a SharedPreference wrapper.
 
 ## Include in your project
 
@@ -12,7 +13,7 @@ compile 'com.travissuban:krefson:0.1.0'
 ## Usage
 
 ```kotlin
-//create a new instance of krefson
+//create a new instance of krefson, you can think of it as a SharedPreference wrapper
 val krefson: Krefson = Krefson(context, "name", Gson())
 
 //create a new instance of krefson using a default Gson
