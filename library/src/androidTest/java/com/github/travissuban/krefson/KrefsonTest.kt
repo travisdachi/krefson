@@ -1,4 +1,4 @@
-package com.travissuban.krefson
+package com.github.travissuban.krefson
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.filters.SmallTest
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4::class)
 @SmallTest
-class KrefsonTest {
+class KrefsonTest() {
 
     var krefson: Krefson = Krefson(InstrumentationRegistry.getContext(), "test")
 

@@ -1,4 +1,4 @@
-package com.travissuban.krefson
+package com.github.travissuban.krefson
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken

@@ -1,4 +1,4 @@
-package com.travissuban.krefson
+package com.github.travissuban.krefson
 
 import android.content.Context
 import android.content.SharedPreferences

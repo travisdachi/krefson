@@ -12,9 +12,9 @@ buildscript {
 }
 publish {
     userOrg = 'travissuban'
-    groupId = 'com.travissuban'
+    groupId = 'com.github.travissuban'
     artifactId = 'krefson'
-    publishVersion = '0.1.0'
+    publishVersion = '0.2.0'
     licences = ['MIT']
     desc = 'A really simple object store with SharedPreference and Gson, written in Kotlin.'
     website = 'https://github.com/travissuban/krefson'
