@@ -7,7 +7,7 @@ krefson is a really simple object store on Android. As the name suggest, it is w
 
 Add this line to dependencies in a module's build.gradle
 ```
-compile 'com.github.travissuban:krefson:0.2.0'
+compile 'com.github.travissuban:krefson:0.3.0'
 ```
 
 ## Usage
