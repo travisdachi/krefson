@@ -1,4 +1,4 @@
-# krefson
+# krefson [DEPRECATED]
 
 krefson is a really simple object store on Android. As the name suggest, it is written in Kotlin, it serialize object with Gson and store it as String in SharedPreference.
 
@@ -48,6 +48,6 @@ val v = krefson["myObjKey", MyObject()]
 
 ```
 
-## Contribute
+## Deprecation Note
 
-I'm new to this so PR is always welcome.
+The name is not catchy enough and it needs more flexibility
